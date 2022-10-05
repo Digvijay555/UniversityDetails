@@ -130,60 +130,6 @@ const University = () => {
                 </>)
             }
 
-
-
-
-
-
-
-
-            {/* <div className='dropdown report'>
-                {
-                    collegeList.map((ele) => {
-                        return (
-
-                            <div className='data'>
-                                <TextField id="filled-basic" variant="filled" value={ele.name} disabled={true} multiline={true}
-                                    inputProps={{ style: { fontSize: 15 } }} // font size of input text
-                                />
-                                <Link href={ele.web_pages}>{ele.web_pages}</Link>
-                                <TextField id="filled-basic" variant="filled" value={Object.values(ele)[3] == null ? "Not Defined" : Object.values(ele)[3]}
-                                    inputProps={{ style: { fontSize: 15 } }} // font size of input text
-                                    InputLabelProps={{ style: { fontSize: 15 } }} // font size of input label
-                                />
-                            </div>
-                        )
-                    })
-
-                }
-            </div> */}
-
-
-
-
-
-            {/* <div className='dropdown report'>
-                {
-                    filterCollegeList.map((ele) => {
-                        return (
-
-                            <div className='data'>
-                                <TextField id="filled-basic" variant="filled" value={ele.name} disabled={true} multiline={true}
-                                    inputProps={{ style: { fontSize: 15 } }} // font size of input text
-                                />
-                                <Link href={ele.web_pages}>{ele.web_pages}</Link>
-                                <TextField id="filled-basic" variant="filled" value={Object.values(ele)[3] == null ? "Not Defined" : Object.values(ele)[3]}
-                                    inputProps={{ style: { fontSize: 15 } }} // font size of input text
-                                    InputLabelProps={{ style: { fontSize: 15 } }} // font size of input label
-                                />
-                            </div>
-                        )
-                    })
-
-                }
-            </div> */}
-
-
         </>
     )
 }
